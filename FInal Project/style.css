@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #87CEEB;
+  color: #15495e;
+  font-family: Arial, Verdana, sans-serif;
+  margin: 20px 40px;
+  padding: 0 50px;
+}
+
+html {
+  background-image: url("https://colibriwp.com/blog/wp-content/uploads/2019/06/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg");
+}
+
+h1 {
+  background-color: #237b7b;
+  color: #e2ffff;
+  line-height: 200%;
+  font-family: Georgia, "Times New Roman", serif;
+  text-indent: 1em;
+  text-shadow: 3px 3px 5px #000000;
+  font-size: 35px;
+  text-align: center;
+  border-radius: 25px;
+  margin: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #FFC0CB;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+img {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 50%;
+  clip-path: circle(50%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #237b7b;
+  margin-top: 20px;
+  color: white;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.topnav {
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #4CAF50;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topnav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.topnav a:hover {
+  background-color: red;
+  color: white;
+  opacity: 1;
+}
+
+.topnav a.active {
+  background-color: #404040;
+  color: white;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+  width: 150px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
